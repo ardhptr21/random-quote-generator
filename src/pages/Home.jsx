@@ -14,7 +14,7 @@ const Home = ({ BASE_API_URL }) => {
   const fetchQuote = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${BASE_API_URL}/random`);
+      const res = await fetch(`${BASE_API_URL}/quotes/random`);
       if (res.ok) {
         const json = await res.json();
         setQuote(json.data[0]);

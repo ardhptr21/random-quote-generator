@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import QuotesByAuthor from './pages/QuotesByAuthor';
 
-const BASE_API_URL = 'https://quote-garden.herokuapp.com/api/v3/quotes';
+const BASE_API_URL = 'https://quote-garden.herokuapp.com/api/v3';
 
 const App = () => {
   return (
